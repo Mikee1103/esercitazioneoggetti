@@ -6,6 +6,7 @@ public class Main {
         Auto b = new Auto("ford", "fiesta", 10000);
         Auto c = new Auto("porsche", "panamera",90000);
         Auto d = new Auto("ferrari", "testarossa", 700000);
+        Auto e = new Auto();
 
         String marca=a.getMarca();
         String modello=a.getModello();
@@ -41,6 +42,15 @@ public class Main {
 
         d.setPrezzo(-10);
         System.out.println(d.getPrezzo());
+        System.out.println(" ");
+
+        marca=e.getMarca();
+        modello=e.getModello();
+        prezzo =e.getPrezzo();
+        System.out.println("Marca: "+ marca);
+        System.out.println("Modello: "+ modello);
+        System.out.println("Prezzo "+ prezzo);
+        System.out.println(" ");
 
     }
 }
